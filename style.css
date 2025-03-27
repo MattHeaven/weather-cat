@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #bbdefb, #90caf9);
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.weather-icon {
+    font-size: 50px;
+}
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+.input-group input {
+    flex: 1;
+    padding: 10px;
+}
+.input-group button {
+    padding: 10px;
+    cursor: pointer;
+}
